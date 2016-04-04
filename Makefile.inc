@@ -17,6 +17,8 @@ else ifeq ($(triplet), arm-linux-gnueabi)
 	OS = gnu
 else ifeq ($(triplet), arm-linux-gnueabihf)
 	OS = gnu
+else ifeq ($(triplet), aarch64-linux-gnu)
+	OS = gnu
 endif
 
 ifndef OS
